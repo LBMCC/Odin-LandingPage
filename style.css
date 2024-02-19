@@ -1,0 +1,86 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header > h3 {
+    margin-right: auto;
+}
+
+.hero {
+    background-color: #1f2937;
+    color: white;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.image {
+    background-color:gray;
+    color: white;
+}
+
+.title > button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 15%;
+    border-color: #3882f6;
+}
+
+.main-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.main-body > h2 {
+    flex: 100%;
+    text-align: center;
+}
+
+.quote {
+    flex: 100%;
+    text-align: center;
+    background-color: #e5e7eb;
+}
+
+.sign-up-prompt {
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.sign-up-button > button {
+    border-color: white;
+    border-radius: 15%;
+    background-color: #3882f6;
+    color: white;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
